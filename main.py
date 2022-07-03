@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QApplication
-from src.startGui import Start
+from src.startGui import LaunchGame
 import sys
 
 
@@ -7,7 +7,7 @@ if __name__ == '__main__':
     app = QApplication.instance()
     if not app:
         app = QApplication(sys.argv)
-    gui = Start()
+    gui = LaunchGame()
     app.exec_()
 
 
