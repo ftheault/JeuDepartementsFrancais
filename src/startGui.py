@@ -10,4 +10,4 @@ class LaunchGame(QtWidgets.QMainWindow, src.view.startGUI.Ui_MainWindow):
         self.setupUi(self)
         self.showMaximized()
 
-        self.pixmap = QPixmap()
+

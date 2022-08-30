@@ -48,6 +48,9 @@ class Ui_MainWindow(object):
         self.pushButtonToValidate.setObjectName("pushButtonToValidate")
         self.verticalLayout_2.addWidget(self.pushButtonToValidate)
         self.labelImageFranceMap = QtWidgets.QLabel(self.centralwidget)
+        self.labelImageFranceMap.setText("")
+        self.labelImageFranceMap.setPixmap(QtGui.QPixmap("ressources/french-map.png"))
+        self.labelImageFranceMap.setScaledContents(True)
         self.labelImageFranceMap.setObjectName("labelImageFranceMap")
         self.verticalLayout_2.addWidget(self.labelImageFranceMap)
         MainWindow.setCentralWidget(self.centralwidget)
@@ -91,4 +94,3 @@ class Ui_MainWindow(object):
 "</style></head><body style=\" font-family:\'Sans Serif\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
         self.pushButtonToValidate.setText(_translate("MainWindow", "Valider"))
-        self.labelImageFranceMap.setText(_translate("MainWindow", "TextLabel"))

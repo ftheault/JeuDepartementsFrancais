@@ -94,7 +94,10 @@ p, li { white-space: pre-wrap; }
     <item>
      <widget class="QLabel" name="labelImageFranceMap">
       <property name="text">
-       <string>TextLabel</string>
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>ressources/french-map.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
