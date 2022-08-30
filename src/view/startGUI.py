@@ -49,7 +49,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_2.addWidget(self.pushButtonToValidate)
         self.labelImageFranceMap = QtWidgets.QLabel(self.centralwidget)
         self.labelImageFranceMap.setText("")
-        self.labelImageFranceMap.setPixmap(QtGui.QPixmap("ressources/french-map.png"))
+        self.labelImageFranceMap.setPixmap(QtGui.QPixmap("french-map.png"))
         self.labelImageFranceMap.setScaledContents(True)
         self.labelImageFranceMap.setObjectName("labelImageFranceMap")
         self.verticalLayout_2.addWidget(self.labelImageFranceMap)
