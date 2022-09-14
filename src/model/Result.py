@@ -1,4 +1,4 @@
-class CheckAnswer:
+class Answer:
     def __int__(self, department_name, department_number, chief_town):
         self.department_name = department_name
         self.department_number = department_number
