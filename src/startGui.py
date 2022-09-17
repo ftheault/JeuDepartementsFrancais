@@ -8,6 +8,7 @@ class LaunchGame(QtWidgets.QMainWindow, src.view.startGUI.Ui_MainWindow):
     def __init__(self, parent=None):
         super(LaunchGame, self).__init__(parent)
         self.setupUi(self)
+        #self.show()
         self.showMaximized()
         #self.labelImageFranceMap.setPixmap(QPixmap("french-map.png"))
 

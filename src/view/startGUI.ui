@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1234</width>
+    <height>1521</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -96,9 +96,6 @@ p, li { white-space: pre-wrap; }
       <property name="text">
        <string/>
       </property>
-      <property name="pixmap">
-       <pixmap>ressources/french-map.png</pixmap>
-      </property>
       <property name="scaledContents">
        <bool>true</bool>
       </property>
@@ -111,7 +108,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1234</width>
      <height>20</height>
     </rect>
    </property>

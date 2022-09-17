@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(800, 600)
+        MainWindow.resize(1234, 1521)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.centralwidget)
@@ -49,13 +49,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_2.addWidget(self.pushButtonToValidate)
         self.labelImageFranceMap = QtWidgets.QLabel(self.centralwidget)
         self.labelImageFranceMap.setText("")
-        self.labelImageFranceMap.setPixmap(QtGui.QPixmap("src/view/ressources/french-map.png"))
         self.labelImageFranceMap.setScaledContents(True)
         self.labelImageFranceMap.setObjectName("labelImageFranceMap")
         self.verticalLayout_2.addWidget(self.labelImageFranceMap)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 20))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1234, 20))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
