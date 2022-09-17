@@ -1,5 +1,5 @@
 class Answer:
-    def __int__(self, question_department, user_response_department):
+    def __init__(self, question_department, user_response_department):
         self.user_response_department = user_response_department
         self.question_department = question_department
 
