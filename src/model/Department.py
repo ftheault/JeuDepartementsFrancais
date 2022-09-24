@@ -23,7 +23,7 @@ class Department:
                 continue
             elif int(d["code"]) == self.number:
                 self.name = d["nom"]
-                self.chief_town = d["codeRegion"]  # To modify
+                self.chief_town = d["chef-lieu"]  # To modify
                 return
 
     def __eq__(self, other):
