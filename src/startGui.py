@@ -51,12 +51,23 @@ class LaunchGame(QtWidgets.QMainWindow, src.view.startGUI.Ui_MainWindow):
             msg.setText("Please fill all the fields")
             msg.setWindowTitle("Missing information")
             msg.show()
+            msg.exec()
         else:
             result = Answer(self.question.random_department, self.get_answer())
 
             if result.checking():
-                print("Bien joué gros")
+                msg = QMessageBox()
+                msg.setIcon(QMessageBox.Warning)
+                msg.setText("Bien joué !!!!!!")
+                msg.setWindowTitle("Result")
+                msg.show()
+                msg.exec()
             else:
-                print("T'es nul en fait")
+                msg = QMessageBox()
+                msg.setIcon(QMessageBox.Warning)
+                msg.setText("T'es nul en fait !!!!!!")
+                msg.setWindowTitle("Result")
+                msg.show()
+                msg.exec()
 
             self.display_random_question()
